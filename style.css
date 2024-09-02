@@ -1,0 +1,155 @@
+/*font1*/
+.poiret-one-regular {
+    font-family: "Poiret One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+/* nav bar style */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #dffae1;
+
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(4, 140, 99);
+    text-align: center;
+    padding: 14px 60px; 
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #e8c0f8;
+  }
+
+body {
+    background-image: url(animalcrossing.jpg);
+    background-size: cover;
+    background-position: center 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+   
+}
+/*homepage dress shot*/
+/*homepage text*/
+
+.colhome {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* Three columns layout */
+    gap: 20px; /* Space between columns */
+    padding: 20px; /* Padding around the container */
+    height: 100vh; /* Full viewport height */
+    box-sizing: border-box; /* Include padding and borders in element's total width/height */
+} 
+
+/* Center column for stacked images */
+.centercol {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center align images horizontally */
+    justify-content: center; /* Center align images vertically */
+}
+.rightcol {
+    display: flex;
+    align-items: center; /* Center text vertically */
+}
+.leftcol{
+    display: flex;
+    align-items: center; /* Center text vertically */
+}
+/* Style for images */
+.fulldress, .aboutme {
+    width: 100%; /* Make images responsive and fit within their column */
+    border-radius: 20px; /* Round corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow */
+    margin-bottom: 20px; /* Space between stacked images */
+}
+
+/* Right column for text */
+
+
+.hometext {
+    font-family: 'Poiret One', sans-serif; /* Use the imported font */
+    font-weight: bold;
+    font-size: 18px; /* Adjust font size */
+    line-height: 1.5; /* Set line height for readability */
+    max-width: 100%; /* Limit width for better layout */
+    margin-left: 20px; /* Add some space from the left edge of the column */
+}
+
+.hometext {
+    background-color: white; /* White background */
+    padding: 15px;           /* Space inside the box */
+    border: 1px solid white;  /* Light gray border */
+    border-radius: 10px;     /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    max-width: 800px;        /* Maximum width of the box */
+    margin: 20px auto;       /* Center the box and add vertical margin */
+}
+/* portfolio page */
+.coltech {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Three columns layout */
+    gap: 20px; /* Space between columns */
+    padding: 20px; /* Padding around the container */
+    height: 100vh; /* Full viewport height */
+    box-sizing: border-box; /* Include padding and borders in element's total width/height */
+} 
+
+
+/* Right column for text */
+.rightcoltech {
+    display: flex;
+    align-items: center; /* Center text vertically */
+}
+.leftcoltech{
+    display: flex;
+    align-items: center; /* Center text vertically */
+}
+.resumepic{
+    width: 100%; /* Make images responsive and fit within their column */
+    border-radius: 20px; /* Round corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow */
+    margin-bottom: 20px; /* Space between stacked images */
+}
+/* indentation */
+.indentclass {
+    display: block;     /* Makes the span behave like a block element */
+    margin-left: 40px;
+}
+/* col portfolio page */
+.colportfolio {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* Three columns layout */
+    gap: 20px; /* Space between columns */
+    padding: 20px; /* Padding around the container */
+    height: 100vh; /* Full viewport height */
+    box-sizing: border-box; 
+} 
+.porttext {
+    font-family: 'Poiret One', sans-serif; /* Use the imported font */
+    font-weight: bold;
+    font-size: 18px; /* Adjust font size */
+    line-height: 1.5; /* Set line height for readability */
+    max-width: 100%; /* Limit width for better layout */
+    margin-left: 20px;
+}
+.porttext{
+    background-color: white; /* White background */
+    padding: 15px;           /* Space inside the box */
+    border: 1px solid white;  /* Light gray border */
+    border-radius: 10px;     /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    max-width: 800px;        /* Maximum width of the box */
+    margin: 20px auto;       /* Center the box and add vertical margin */
+}
