@@ -3,11 +3,11 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Joyce Luo Portfolio</title>
-  <meta name="description" content="">
-  <meta name="keywords" content="">
+  
 
-  <link href="style.css" rel="stylesheet">
+
+  <link id="mainStyleSheet" rel="stylesheet" href="style.css" />
+  <title>Joyce Luo Portfolio</title>
 	<!-- font1-->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,7 +15,8 @@
 </head>
 
 <body>
-    <a class="navbar-brand" href="#"><img src="fontbolt.png"></a>
+    <div class="title">JOYCE LUO</div>
+    <a class="navbar-brand" href="#"></a>
       <div class="collapse navbar-collapse" id="navbarcute">
           <ul class="navbar-nav ml-auto">
               <li class="nav-item">
@@ -55,11 +56,19 @@
               Thanks for visiting my portfolio! Take a look around!<br>
               If you have any questions, please contact me:<br>
               Email: joyceluo04@tamu.edu<br>
-              Phone: 281-673-5210
+              Phone: 281-673-5210 <br>
+              <a href="https://www.linkedin.com/in/joyce-luo-393a6a28a/">Visit my LinkedIn!</a> <br>
+              <a href="https://students.mays.tamu.edu/students/joyce-luo/">Visit my HireMSF page for Finance inquiries!</a>
           </p>
         </div>
       </div>
-  </div>
+      <div class="buttoncontainer">
+        <button onclick="toggleStyleSheet()" type="button">Toggle Style</button>
+      </div>
+    <script src="functions.js"></script>
+    <p><br><br></p>
+    </div>
+     
   </body>
 </html>
 

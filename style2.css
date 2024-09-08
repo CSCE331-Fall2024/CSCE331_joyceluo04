@@ -1,30 +1,16 @@
 /*font1*/
 .title{
-    font-family: "Poiret One", sans-serif;
+    text-align: center;
+    font-family: "Copperplate", fantasy;
     font-weight: 500;
     font-style: normal;
     font-size: 80px;
-}
-/* button format */
-.buttoncontainer button {
-    background:  #f2abeb; /* Green gradient background */
-    border: none;                  /* Remove default border */
-    color: rgb(3, 71, 26);                  /* White text color */
-    padding: 15px 30px;             /* Padding for size */
-    text-align: center;            /* Center text inside the button */
-    display: inline-block;         /* Inline block for spacing */
-    font-size: 16px;               /* Font size */
-    font-family:"Poiret One", sans-serif; /* Font family */
-    border-radius: 8px;         
-}
-button:hover {
-    background-color: #9e59be; /* Slightly darker green on hover */
+    color: rgb(255, 255, 255);
 }
 .poiret-one-regular {
     font-family: "Poiret One", sans-serif;
     font-weight: 400;
     font-style: normal;
-    
   }
 /* nav bar style */
 ul {
@@ -32,7 +18,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #dffae1;
+    background-color: #0608a6;
 
   }
   
@@ -42,19 +28,36 @@ ul {
   
   li a {
     display: block;
-    color: rgb(4, 140, 99);
+    color: rgb(255, 255, 255);
     text-align: center;
-    padding: 14px 60px; 
+    padding: 14px 110px; 
     text-decoration: none;
+    font-size: 20px;
+    font-family: "Copperplate", fantasy;
+    border-radius: 20px;
   }
   
   /* Change the link color to #111 (black) on hover */
   li a:hover {
-    background-color: #e8c0f8;
+    background-color: #2852da;
   }
-
+/* button */
+.buttoncontainer button {
+    background:  #046009; /* Green gradient background */
+    border: none;                  /* Remove default border */
+    color: rgb(255, 255, 255);                  /* White text color */
+    padding: 15px 30px;             /* Padding for size */
+    text-align: center;            /* Center text inside the button */
+    display: inline-block;         /* Inline block for spacing */
+    font-size: 20px;               /* Font size */
+    font-family: "Copperplate", fantasy;
+    border-radius: 8px;         
+}
+button:hover {
+    background-color: #45a049; /* Slightly darker green on hover */
+}
 body {
-    background-image: url(animalcrossing.jpg);
+    background-image: url(minecraftbg.jpg);
     background-size: cover;
     background-position: center 0;
     background-repeat: no-repeat;
@@ -67,9 +70,12 @@ body {
 
 .colhome {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr; /* Three columns layout */
+    grid-template-columns: 1fr ; /* Three columns layout */
     gap: 20px; /* Space between columns */
-    padding: 20px; /* Padding around the container */
+    padding-right: 400px; /* Padding around the container */
+    padding-left: 400px;
+    padding-top: 20px;
+    padding-bottom:20px;
     height: 100vh; /* Full viewport height */
     box-sizing: border-box; /* Include padding and borders in element's total width/height */
 } 
