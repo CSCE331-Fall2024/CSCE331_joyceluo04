@@ -34,25 +34,22 @@ ul {
     overflow: hidden;
     background-color: #dffae1;
 
-  }
-  
-  li {
+} 
+li {
     float: left;
-  }
-  
-  li a {
+}
+li a {
     display: block;
     color: rgb(4, 140, 99);
     text-align: center;
     padding: 14px 60px; 
     text-decoration: none;
-  }
-  
+}
   /* Change the link color to #111 (black) on hover */
-  li a:hover {
+li a:hover {
     background-color: #e8c0f8;
-  }
-
+}
+/* background image */
 body {
     background-image: url(animalcrossing.jpg);
     background-size: cover;
@@ -64,7 +61,6 @@ body {
 }
 /*homepage dress shot*/
 /*homepage text*/
-
 .colhome {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr; /* Three columns layout */
@@ -121,13 +117,20 @@ body {
 /* portfolio page */
 .coltech {
     display: grid;
+    grid-template-columns: 1fr; /* Three columns layout */
+    gap: 20px; /* Space between columns */
+    padding: 20px; /* Padding around the container */
+    height: 100vh; /* Full viewport height */
+    box-sizing: border-box; /* Include padding and borders in element's total width/height */
+} 
+.coltech2 {
+    display: grid;
     grid-template-columns: 1fr 1fr; /* Three columns layout */
     gap: 20px; /* Space between columns */
     padding: 20px; /* Padding around the container */
     height: 100vh; /* Full viewport height */
     box-sizing: border-box; /* Include padding and borders in element's total width/height */
 } 
-
 
 /* Right column for text */
 .rightcoltech {
@@ -138,11 +141,14 @@ body {
     display: flex;
     align-items: center; /* Center text vertically */
 }
+/* resume picture formatting */
 .resumepic{
-    width: 100%; /* Make images responsive and fit within their column */
+    width: 100%; /* Adjust the width to your desired size */
+    height: auto; /* Maintain aspect ratio */
     border-radius: 20px; /* Round corners */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow */
     margin-bottom: 20px; /* Space between stacked images */
+    margin-top: 60px;
 }
 /* indentation */
 .indentclass {

@@ -11,22 +11,23 @@
     font-family: "Poiret One", sans-serif;
     font-weight: 400;
     font-style: normal;
-  }
+}
+.qualtext{
+    font-family: "Copperplate", fantasy;
+    color:white;
+}
 /* nav bar style */
-ul {
+ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #0608a6;
-
-  }
-  
-  li {
+}
+li{
     float: left;
-  }
-  
-  li a {
+}
+li a{
     display: block;
     color: rgb(255, 255, 255);
     text-align: center;
@@ -35,13 +36,12 @@ ul {
     font-size: 20px;
     font-family: "Copperplate", fantasy;
     border-radius: 20px;
-  }
-  
-  /* Change the link color to #111 (black) on hover */
-  li a:hover {
+}
+/* Change the link color to #111 (black) on hover */
+li a:hover {
     background-color: #2852da;
-  }
-/* button */
+}
+/* toggle button */
 .buttoncontainer button {
     background:  #046009; /* Green gradient background */
     border: none;                  /* Remove default border */
@@ -56,18 +56,15 @@ ul {
 button:hover {
     background-color: #45a049; /* Slightly darker green on hover */
 }
+/* background */
 body {
     background-image: url(minecraftbg.jpg);
     background-size: cover;
     background-position: center 0;
     background-repeat: no-repeat;
     background-attachment: fixed;
-
-   
 }
-/*homepage dress shot*/
 /*homepage text*/
-
 .colhome {
     display: grid;
     grid-template-columns: 1fr ; /* Three columns layout */
@@ -102,44 +99,68 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow */
     margin-bottom: 20px; /* Space between stacked images */
 }
-
-/* Right column for text */
-
-
+/* bordered text */
 .hometext {
-    font-family: 'Poiret One', sans-serif; /* Use the imported font */
-    font-weight: bold;
+    font-family: 'Copperplate', fantasy; /* Use the imported font */
+    color: rgb(255, 255, 255);
     font-size: 18px; /* Adjust font size */
     line-height: 1.5; /* Set line height for readability */
     max-width: 100%; /* Limit width for better layout */
     margin-left: 20px; /* Add some space from the left edge of the column */
 }
-
 .hometext {
-    background-color: white; /* White background */
+    background-color: rgb(80, 38, 4); /* White background */
     padding: 15px;           /* Space inside the box */
     border: 1px solid white;  /* Light gray border */
     border-radius: 10px;     /* Rounded corners */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-    max-width: 800px;        /* Maximum width of the box */
+    max-width: 1100px;        /* Maximum width of the box */
     margin: 20px auto;       /* Center the box and add vertical margin */
 }
 /* portfolio page */
-.coltech {
-    display: grid;
-    grid-template-columns: 1fr 1fr; /* Three columns layout */
-    gap: 20px; /* Space between columns */
-    padding: 20px; /* Padding around the container */
-    height: 100vh; /* Full viewport height */
-    box-sizing: border-box; /* Include padding and borders in element's total width/height */
-} 
-
-
-/* Right column for text */
 .rightcoltech {
     display: flex;
     align-items: center; /* Center text vertically */
 }
+.coltech {
+    display: grid;
+    grid-template-columns: 1fr ; 
+    gap: 20px; /* Space between columns */
+    width: 100%;
+    padding-right: 100px; /* Padding around the container */
+    padding-left: 100px;
+    padding-top: 20px;
+    padding-bottom:20px;
+    height: 100vh; /* Full viewport height */
+    box-sizing: border-box; /* Include padding and borders in element's total width/height */
+} 
+.coltech2 {
+    display: grid;
+    grid-template-columns: 1fr ; 
+    gap: 20px; /* Space between columns */
+    width: 100%;
+    padding-right: 100px; /* Padding around the container */
+    padding-left: 100px;
+    padding-top: 20px;
+    padding-bottom:20px;
+    height: 100vh; /* Full viewport height */
+    box-sizing: border-box; /* Include padding and borders in element's total width/height */
+}
+/* column style setup */
+.threecol{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* Three columns layout */
+    gap: 10px;
+}
+.twocol{
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal columns */
+    gap: 20px;
+    width: 100%; /* Make sure the container spans the full width */
+    padding: 20px;
+    box-sizing: border-box;
+}
+
 .leftcoltech{
     display: flex;
     align-items: center; /* Center text vertically */

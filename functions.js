@@ -1,4 +1,3 @@
-
 function toggleStyleSheet() {
     // Task 1
     // Steps
@@ -45,9 +44,11 @@ window.onload = function () {
     // 2 (b) get html style element by ID
     var htmlElement = document.getElementById("mainStyleSheet");
 
+
     // 2 (c) replace href attribute of html element.
     if (name) {
         htmlElement.setAttribute("href", name);
+
     }
 
 }
